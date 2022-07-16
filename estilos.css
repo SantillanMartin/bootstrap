@@ -5,7 +5,32 @@
     
     
 }
+.minimo-imagen{
+    min-height: 14rem;
+    
+}
+.hover-marca{
+    transition: 0.6s;
+}
 
+.form-tamaño{
+    height: 11rem;
+    min-height: 9rem;
+}
+
+
+
+.ancho-maximo-input input{
+    max-width: 500px;
+}
+
+.hover-marca:hover{
+    background-color: rgb(114, 241, 40);
+    
+}
+.logo-hover:hover{
+    cursor: pointer;
+}
 
 .cursor--modificacion:hover{
     cursor: pointer;
@@ -13,16 +38,34 @@
 .hover-imagen:hover{
     cursor: pointer;
 }
+
+.list-group-item:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 .carousel-inner{
     max-height: 34rem;
+    min-height: 14rem;
     
 }
+
 .agrandar-tamaño{
     transition: 0.4s;
+}
+.whastapp-fixed{
+    position: fixed;
+    bottom: 15px;
+    right: 5px;
+    z-index: 999;
+}
+
+.whastapp-fixed:hover{
+    cursor: pointer;
 }
 .agrandar-tamaño:hover{
     transform: scale(1.2);
     cursor: pointer;
+    
 }
 
 
@@ -34,3 +77,11 @@
         transform: scale(1.2);
     }
 }
+
+@media(max-width:768px){
+    .hover-marca:active{
+        background-color: rgb(114, 241, 40);
+        
+    }
+}
+

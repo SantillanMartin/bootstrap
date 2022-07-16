@@ -9,33 +9,39 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
+  <header>
     <section class="container-fluid h4 pt-2 ">
       <p class="text-center">Envío gratis desde $14.999</p>
     </section>
-    <nav class="navbar navbar-expand-lg  bg-warning fs-3">
-        <div class="container-fluid">
-          <a class="navbar-brand border border-dark" href="#">Snikers</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="#">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="#">Ofertas</a>
-              </li>
-              
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg  bg-warning fs-3 ">
+      <div class="container-fluid">
+        <a class="navbar-brand border border-dark hover-marca" href="#">Snikers</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Sale</a>
+            </li>
+            
+          </ul>
         </div>
-    </nav>
-    <section class="container">
-      <p class="fs-4 text-center mb-2 mt-2"> 12 CUOTAS  CON TODAS LAS TARJETAS</p>
+      </div>
+  </nav>
+  </header>  
+  
+    <main>
+    
+    
+    <section class="container-fluid border-top border-bottom border-secondary">
+      <p class="fs-4 text-center pt-2 h4"> 12 CUOTAS  CON TODAS LAS TARJETAS</p>
     </section>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
       <div class="carousel-indicators">
@@ -45,13 +51,13 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./imagenes/adidas-richi.jpg" class="d-block w-100" alt="...">
+          <img src="./imagenes/adidas-richi.jpg" class="d-block w-100 minimo-imagen" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="./imagenes/puma.jpg" class="d-block w-100" alt="...">
+          <img src="./imagenes/puma.jpg" class="d-block w-100 minimo-imagen" alt="puma-comprar">
         </div>
         <div class="carousel-item">
-          <img src="./imagenes/nike.jpg" class="d-block w-100" alt="...">
+          <img src="./imagenes/nike.jpg" class="d-block w-100 minimo-imagen" alt="nike-comprar">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -64,13 +70,13 @@
       </button>
     </div>
     <div class="container mt-5 mb-5">
-      <div class="row">
+      <div class="row d-flex flex-column flex-lg-row">
        
-        <div class="col d-flex justify-content-center">
-          <img class="img-fluid hover-imagen" src="./imagenes/puma-grid.jpg" alt="puma">
+        <div class="col d-flex justify-content-center  mt-5">
+          <a href="#"><img class="img-fluid hover-imagen" src="./imagenes/puma-grid.jpg" alt="puma"></a>
         </div>
         <div class="col d-flex justify-content-center">
-          <img class="img-fluid hover-imagen" src="./imagenes/adidas-grid.jpg" alt="adidas">
+          <a href="#"><img class="img-fluid hover-imagen mt-5" src="./imagenes/adidas-grid.jpg" alt="adidas"></a>
         </div>
       </div>
     </div>
@@ -82,43 +88,111 @@
       
       <section class="container d-flex justify-content-evenly flex-wrap  mt-5">
         <div class="card border border-white agrandar-tamaño mb-3" style="width: 18rem;">
-          <img src="./imagenes/airforce.jfif" class="card-img-top" alt="...">
+          <img src="./imagenes/airforce.jfif" class="card-img-top img-fluid" alt="air-force">
           <div class="card-body">
             <p class="card-text fs-5">Zapatillas Nike Air Force 1  <strong>$36.799</strong></p>
           </div>
         </div>
         <div class="card border border-white agrandar-tamaño mb-3" style="width: 18rem;">
-          <img src="./imagenes/airforcedos.jfif" class="card-img-top" alt="...">
+          <img src="./imagenes/airforcedos.jfif" class="card-img-top" alt="air-max">
           <div class="card-body">
             <p class="card-text fs-5">Zapatillas Nike Air Max  90 <strong>$43.099</strong></p>
           </div>
         </div>
         <div class="card border border-white agrandar-tamaño mb-3" style="width: 18rem;">
-          <img src="./imagenes/adidastres.jfif" class="card-img-top" alt="...">
+          <img src="./imagenes/adidastres.jfif" class="card-img-top" alt="adidas-geodiver">
           <div class="card-body">
             <p class="card-text fs-5">Zapatillas adidas Geodiver+  <strong>$32.599</strong></p>
           </div>
         </div>
         <div class="card border border-white agrandar-tamaño mb-3" style="width: 18rem;">
-          <img src="./imagenes/gorra.jfif" class="card-img-top" alt="...">
+          <img src="./imagenes/gorra.jfif" class="card-img-top" alt="gorra-goorin">
           <div class="card-body">
             <p class="card-text fs-5">Gorra Goorin Freedom <strong>$5.099</strong></p>
           </div>
         </div>
-
+      
       </section>
-    
+      <section class="container mt-5 mb-5">
+        <p class="h1 text-center"><strong>LAS MEJORES MARCAS</strong></p>
+      </section>
+      <div class="container mt-5 mb-5">
+        <div class="row">
+         
+          <div class="col d-flex justify-content-center mt-2">
+            <img class="hover-imagen" src="./imagenes/logoadidasoriginals.png" alt="puma">
+          </div>
+          <div class="col d-flex justify-content-center mt-2">
+            <img class=" hover-imagen" src="./imagenes/fila.png" alt="adidas">
+          </div>
+          <div class="col d-flex justify-content-center mt-2">
+            <img class="hover-imagen" src="./imagenes/logonike.png" alt="puma">
+          </div>
+          <div class="col d-flex justify-content-center mt-2">
+            <img class=" hover-imagen" src="./imagenes/converse.png" alt="puma">
+          </div>
+          <div class="col d-flex justify-content-center mt-2">
+            <img class=" hover-imagen" src="./imagenes/logonewbalance.png" alt="puma">
+          </div>
+          <div class="col d-flex justify-content-center mt-2">
+            <img class=" hover-imagen" src="./imagenes/logopuma.png" alt="puma">
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+
+      <section class="whastapp-fixed">
+        <img src="./imagenes/whatsapp.svg" alt="whatsapp">
+      </section>
       <!--//Formulario//-->
-      <form class="container">
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      <form class="container-fluid mt-5 bg-warning form-tamaño d-flex justify-content-center align-items-center flex-column ">
+       
+        <section class="container  ancho-maximo-input">
+          <section>
+            <p class="text-center fs-5 fw-semibold">SUSCRIBITE AL NEWSLETTER</p>
+          </section>
+          
+          <div class="input-group mb-3 justify-content-center">
+            <input type="text" class="form-control" placeholder="Ingresa tu mail" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary btn-dark text-light" type="button" id="button-addon2">ENVIAR</button>
           </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
+          
+        </section>
+        <section class="container  d-flex justify-content-center">
+          <img class="p-2 logo-hover" src="./imagenes/instagram.svg" alt="">
+          <img class="p-2 logo-hover" src="./imagenes/facebook.svg" alt="">
+        </section>
       </form>
+
+      <!--//Footer//-->
+      <footer class="container-fluid bg-dark footer-tamaño">
+        <section class="container d-flex justify-content-around align-items-center flex-column">
+          <section class="container d-flex justify-content-evenly">
+            <ul class="list-group">
+              <li class="list-group-item border-0 bg-dark text-light">Quienes somos</li>
+              <li class="list-group-item border-0 bg-dark text-light">Preguntas frecuentes</li>
+              <li class="list-group-item border-0 bg-dark text-light">Sucursales</li>
+              <li class="list-group-item border-0 bg-dark text-light">Términos y condiciones</li>
+              
+            </ul>
+            <ul class="list-group ">
+              <li class="list-group-item border-0 bg-dark text-light">Formas de pago</li>
+              <li class="list-group-item border-0 bg-dark text-light">Políticas de cambios</li>
+              <li class="list-group-item border-0 bg-dark text-light">Defensa del consumidor</li>
+              <li class="list-group-item border-0 bg-dark text-light">Políticas de envíos</li>
+              
+            </ul>
+          </section>
+          
+          <section>
+            <button type="button" class="btn btn-light  flex-shrink-1 ">ARREPENTIMIENTO DE COMPRA</button>
+          </section>
+          
+         
+        </section>
+      </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
